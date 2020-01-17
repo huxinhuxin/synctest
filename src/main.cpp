@@ -19,8 +19,7 @@ int main()
 	delete newa;
 	newa=0;
 	delete newa;
-	//*aaaarr++；
-	//*aaaarr=60；
+	
 	cout<<"b = "<<b<<endl;
 	getchar();
 	return 0;
