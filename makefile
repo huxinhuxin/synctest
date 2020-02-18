@@ -16,7 +16,4 @@ $(OBJECTS):%.o : %.cpp
 
 .PHONY:clean
 clean:
-#rm -rf $(OBJECTS) $(EXCUTABLE_FILE)
-	del  /S *.o
-	del  /S *.exe
-	
+	rm -rf $(OBJECTS) $(EXCUTABLE_FILE)
